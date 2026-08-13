@@ -34,3 +34,38 @@ body {
   background: #0c0a09;
   color: #f9f7f5;
 }
+
+.site-fluid {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    #000 0%,
+    #000 5%,
+    transparent 34%,
+    transparent 66%,
+    #000 95%,
+    #000 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    #000 0%,
+    #000 5%,
+    transparent 34%,
+    transparent 66%,
+    #000 95%,
+    #000 100%
+  );
+}
+
+.site-read {
+  pointer-events: none;
+  position: absolute;
+  inset: 0 -6rem;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgb(249 247 245 / 0.28) 22%,
+    rgb(249 247 245 / 0.48) 50%,
+    rgb(249 247 245 / 0.28) 78%,
+    transparent 100%
+  );
+}
